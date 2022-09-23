@@ -1,4 +1,4 @@
-# nodejs-hello-world
+# nodedotjs-server for Cumul integration
 
 ## Usage
 

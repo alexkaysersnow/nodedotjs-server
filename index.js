@@ -57,7 +57,7 @@ app.get('/', (req, res) => {
 
 app.get('/dashb', (req, res) => {
   const resp = {
-    id: "41e08ccc-456b-4084-a619-71a566553e06"
+    id: process.env.DASHBOARD_ID_EXAMPLE
   }
   res.json(resp);
 });

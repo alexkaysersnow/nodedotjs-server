@@ -56,9 +56,19 @@ app.get('/', (req, res) => {
 });
 
 app.get('/dashb', (req, res) => {
-  const resp = {
-    id: process.env.DASHBOARD_ID_EXAMPLE
+    const resp = {
+      dashboards: [
+      {
+        name: 'Snow',
+        dashboardId: '8b9945be-c228-466e-bb41-6bb08eca2ae2',
+      },
+      {
+        name: 'Alex',
+        dashboardId: 'f2fc7bdb-e05b-4845-bbc8-dff1bf44f58f',
+      },
+    ]
   }
+
   res.json(resp);
 });
 

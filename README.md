@@ -1,4 +1,6 @@
-# nodedotjs-server for Cumul integration
+# Mock project for Cumul integration
+
+This is a mock for poc purposes, don't use in production.
 
 ## Usage
 
